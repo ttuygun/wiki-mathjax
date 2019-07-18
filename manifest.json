@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Wikipedia with MathJax (Development version)",
-  "version": "0.0.13",
+  "version": "0.0.14",
 
   "icons": { "16": "wiki-mjax-16.png",
              "48": "wiki-mjax-48.png",
@@ -12,7 +12,7 @@
   "web_accessible_resources": ["texvc.js"],
   "content_scripts": [
     {
-      "matches": ["https://*.wikipedia.org/*", "https://*.wikibooks.org/*", "http://*.wikiwand.com/*", "https://*.wikiwand.com/*"],
+      "matches": ["https://*.wikipedia.org/*", "https://*.wikibooks.org/*", "http://*.wikiwand.com/*", "https://*.wikiwand.com/*", "https://*.wikipedi0.org/*"],
       "js": ["jquery-1.12.4.min.js", "content.js"],
       "run_at": "document_end"
     }
